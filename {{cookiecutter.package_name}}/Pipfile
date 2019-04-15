@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+{{cookiecutter.package_name}} = {path = '.'}
+
+
+[dev-packages]
+bump2version = "*"
+flake8 = "*"
+pytest = "*"
+{{cookiecutter.package_name}} = {editable = true, path = "."}
+
+
+[requires]
+python_version = "3.6"

@@ -1,0 +1,3 @@
+# cookiecutter-thing
+
+simple cookiecutter for bootstrapping python packages...
