@@ -12,7 +12,3 @@ bump2version = "*"
 flake8 = "*"
 pytest = "*"
 {{cookiecutter.package_name}} = {editable = true, path = "."}
-
-
-[requires]
-python_version = "3.6"
