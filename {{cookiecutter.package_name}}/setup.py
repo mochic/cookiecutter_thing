@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'READNME.md'), 'r') as rstream:
+with open(path.join(here, 'README.md'), 'r') as rstream:
     readme = rstream.read()
 
 
